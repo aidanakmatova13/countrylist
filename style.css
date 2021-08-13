@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+}
+body{
+    background-color: #202C38;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+    background-color: #2A3642;
+    margin-bottom: 20px;
+
+}
+.img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+.flag-img{
+    height: 200px;
+    width: 200px;
+}
